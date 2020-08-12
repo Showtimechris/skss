@@ -1,0 +1,106 @@
+body {
+  font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+/* Navigation Styles */
+#navigation-menu {
+  padding: 0 7%;
+}
+.logo-img {
+  width: 350px;
+  height: 100px;
+}
+.nav-item {
+  margin-right: 25px;
+}
+.nav-item a:hover{
+  border-bottom: 2px solid green;
+  font-size: 20px;
+}
+
+.presentation-intro{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/business-graphic.jpg");
+  padding-bottom:10%;
+  /*linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))*/
+  }
+  .presentation-img {
+    position: relative;
+    left: 35%;
+    width: 200px;
+    height: 200px;
+  }
+.header-main {
+  position: relative;
+  top: 30px;
+  left: 25%;
+  color: #0ce89b;
+  width: 50%;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+/* Jumbotron */
+.jumbotron {
+  background-color: #398ae6;
+}
+#intro {
+}
+.content-item {
+  background-color: #39d48c;
+padding: 0 200px 0 100px;
+}
+.header {
+  font-size: 3.0rem;
+  font-weight: bold;
+  padding: 20px 0 40px 0;
+}
+.sub-header {
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 1.5;
+  width: 500px;
+}
+.content-item2 {
+  padding-left:;
+}
+.intro-img{
+  width: 200px;
+  height: 400px;
+}
+/* HORIZONATAL RULE ******/
+.line-space {
+  border: 4px dotted #a6a6a6;
+  border-bottom: none;
+  width: 150px;
+  margin-top: 30px;
+}
+/* Features Section ****** */
+#features-section {
+  margin-top: 30px;
+}
+.feature-item {
+  margin-left: 50px;
+}
+.feature-img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  color: #00ffff;
+
+
+}
+.feature-header {
+  font-size: 1.2rem;
+  color: #6b6b6b;
+  text-align: center;
+  width: 300px;
+
+}
+.feature-text {
+  font-size: 1rem;
+  text-align: center;
+  display: none;
+}
